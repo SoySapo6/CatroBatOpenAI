@@ -2,7 +2,7 @@
 // Crea un endpoint PHP que reciba un mensaje y devuelva un JSON de ChatGPT.
 
 // Asegúrate de que tu API Key esté en el entorno o en el código.
-$apiKey = 'TU_API_KEY_DE_OPENAI'; // PON TU API KEY AQUÍ
+$apiKey = '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'; // PON TU API KEY AQUÍ
 
 // Verifica que haya un mensaje en la solicitud
 if (isset($_GET['mensaje'])) {
